@@ -12,9 +12,9 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar" style="width: 160px; height: 160px;"><img src="images/avatar3.jpg" alt="" /></a>
-					<h1><strong>Moin! I am Daria Petrova</strong>, a dataphile <br /> and master's student in Data Science </a></h1>
+					<h1><strong>Moin! I am Daria Petrova</strong>, a dataphile and MSc in Data Science </a></h1>
 					<hr>
-					<i class="fas fa-map-marker-alt"></i> Kiel, Germany
+					<i class="fas fa-map-marker-alt"></i> Germany
 				</div>
 			</header>
 
@@ -24,43 +24,54 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2>My recent projects</h2>
+							<h2>My selected projects</h2>
 						</header>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
+								<h3>Agentic Housing Evaluation App</h3>
+								<p>Frustrated with flat-hunting in Germany in my student days, I built an app that evaluates WG listings end-to-end — it takes a listing URL, extracts key details, enriches it with location context, and evaluates it through specialized agents focused on budget/value and lifestyle compatibility. Deployed via CI/CD on Azure with a Streamlit interface.</p>
+									<p><i>Python, Multi-Agent Workflow, Azure OpenAI, Azure Maps, Streamlit, Docker, GitHub Actions</i></p>
+									<a href="https://github.com/merts3ger/wg-housing-agent" class="icon brands fa-github"><span class="label">Github</span></a>
+								</p>
+								<div class="row">
+									<div class="col-6"><a href="images/wg_page-0001.jpg" class="image fit thumb"><img src="images/wg_page-0001.jpg" alt="" /></a></div>
+									<div class="col-6"><a href="images/wg_page-0002.jpg" class="image fit thumb"><img src="images/wg_page-0002.jpg" alt="" /></a></div>
+								</div>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>User Preferences: Cluster Analysis of Google Review Ratings</h3>
+								<p>Applying K-means and Hierarchical Agglomerative Clustering (HAC) to segment users based on their ratings for various attractions. Analyzing user preferences enables us to highlight or recommend places and activities that match user interests.
+									<p>Included Principal Component Analysys for dimensionality reduction and cluster visualization. </p>
+								<p><i>Python, Unsupervised Machine Learning, Scikit-learn, PCA</i></p>
+								<a href="https://github.com/merts3ger/PCA_Clustering_Ratings" class="icon brands fa-github"><span class="label">Github</span></a></p>
+								<a href="images/clustering.jpg" class="image fit thumb"><img src="images/clustering.jpg" alt="" /></a>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
 								<!--<a href="..." class="image fit thumb"><img src="images/cifar10pics.jpg" alt="" /></a> <-->
 								<h3>CNN for multiclass image classification</h3>
-								<p>Training three distinct CNN models to explore the impact of varying architectures on model performance in the context of 10-class image classification. 
-									An Early Stopping technique was customly implemented, halting training if no improvement occured in the validation loss. 
-									<p><i>Python, Deep Learning, PyTorch</i></p>   
+								<p>Training three distinct CNN models to explore the impact of varying architectures on model performance in the context of 10-class image classification.
+									An Early Stopping technique was customly implemented, halting training if no improvement occured in the validation loss.
+									<p><i>Python, Deep Learning, PyTorch</i></p>
 									<a href="https://github.com/merts3ger/CNN-10class-classification" class="icon brands fa-github"><span class="label">Github</span></a>
 									</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<!--<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/confusion_DT.jpg" alt="" /></a> <-->
 								<h3>Diabetes Risk Prediction</h3>
-								<p>Predicting the risk of diabetes from health and lifestyle data to provide a medical check-up recommendation for individuals vulnerable to the condition. To choose the best model, the performance of k-Nearest Neighbors (k-NN), Support Vector Machines (SVM) and Decision Trees is compared.  
+								<p>Predicting the risk of diabetes from health and lifestyle data to provide a medical check-up recommendation for individuals vulnerable to the condition. To choose the best model, the performance of k-Nearest Neighbors (k-NN), Support Vector Machines (SVM) and Decision Trees is compared.
 									<p>Implementing the nested cross-validation approach for the hyperparameter tuning.</p>
-									<p><i>Python, Machine Learning, nested CV, imbalanced datasets, SMOTE</i></p>   
+									<p><i>Python, Machine Learning, Scikit-learn, nested CV, imbalanced datasets, SMOTE</i></p>
 									<a href="https://github.com/merts3ger/ML-classification-SVM-kNN-Trees" class="icon brands fa-github"><span class="label">Github</span></a></p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>User Preferences: Cluster Analysis of Google Review Ratings</h3> 
-								<p>Analyzing user preferences enables us to highlight or recommend places and activities that match user interests. In this project I conduct exploratory data analysis (EDA), and then apply K-means and Hierarchical Agglomerative Clustering (HAC) techniques to segment users based on their ratings for various attractions.  
-									<p>Included Principal Component Analysys for dimensionality reduction and cluster visualization. </p>
-								<p><i>Python, Unsupervised Machine Learning, PCA</i></p> 
-								<a href="https://github.com/merts3ger/PCA_Clustering_Ratings" class="icon brands fa-github"><span class="label">Github</span></a></p>
-								<a href="images/clustering.jpg" class="image fit thumb"><img src="images/clustering.jpg" alt="" /></a>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<h3>Enviromental Sustainability and Rule of Law</h3>
 								<p>This project is inspired by my intuitive belief that the principles of the rule of law, advocating for equitable treatment and accountability, may reflect the core values of sustainable environmental practices. To explore this connection, I visually investigated the relationship between nations' environmental performance index (EPI) and adherence to the rule of law. 
 									<p>Using GeoPandas and Altair for interactive map/bar chart visualizations, Seaborn and Matplotlib. </p>
-									<p><i>Python, Visual Storytelling</i></p> 
+									<p><i>Python, Visual Storytelling</i></p>
 									<a href="https://github.com/merts3ger/sustainability-rule-of-law" class="icon brands fa-github"><span class="label">Github</span></a></p>
 									<a href="images/visualstory.jpg" class="image fit thumb"><img src="images/visualstory.jpg" alt="" /></a>
 							</article>
-							
+
 							<article class="col-6 col-12-xsmall work-item">
 								<h3>X's community-flagged content</h3>
 								<p>In light of the great role social media platforms play in shaping public opinion, I explore X (ex-Twitter) accounts that are most frequently flagged by "Community Notes", 
